@@ -1,0 +1,214 @@
+#include <ros/ros.h>
+#include <sensor_msgs/JointState.h>
+#include <std_msgs/Float64.h>
+#include <string.h>
+#include <iostream>
+
+#define PI 3.1415
+
+using namespace std;
+
+class BackAndForthMovement{
+	public:
+		float pos_limit_; // position limit (rad)
+		float w_limit_; // angular velocity limit (rad/s)
+		
+		sensor_msgs::JointState joint_command_; // joint to send
+		sensor_msgs::JointState joint_state_;   // joint to receive
+		
+		ros::NodeHandle nh;
+		ros::Publisher joint_pub_;
+		ros::Subscriber joint_sub_;
+		int state_;
+		double desired_freq_;
+		string name_;
+		bool joint_received_;
+		ros::Rate *loop_rate_;
+		
+		double offset_;
+		double uncertainty_;
+		
+		BackAndForthMovement()
+		{
+			ROS_INFO("back and forth movement started");
+			
+			pos_limit_ = PI / 2;
+			w_limit_ = 0.1;
+			state_ = 1;
+			desired_freq_ = 100.0;
+			name_ = "H42";
+			joint_received_ = false;
+			loop_rate_ = new ros::Rate(desired_freq_);
+			
+			offset_ = 0;
+			uncertainty_ = 0.02;
+
+			joint_state_ = sensor_msgs::JointState();
+
+			//joint_pub_ = nh.advertise<sensor_msgs::JointState>("/joint_commands",1);
+            //joint_pub_ = nh.advertise<std_msgs::Float64>("/la_roll_controller/command",1);
+            joint_pub_ = nh.advertise<std_msgs::Float64>("/p3at/la_roll_joint_position_controller/command",1);
+            //joint_sub_ = nh.subscribe<sensor_msgs::JointState>("/la_joint_state", 1, &BackAndForthMovement::jointStateCallback, this);
+			joint_sub_ = nh.subscribe<sensor_msgs::JointState>("/p3at/joint_states", 1, &BackAndForthMovement::jointStateCallback, this);
+
+            //center the laser
+            std_msgs::Float64 value;
+            value.data = offset_;
+            joint_pub_.publish(value);
+
+			//controlLoop();
+            while(ros::ok())
+			{
+              std::string inputString;
+              std::cout << "Press 'Enter' to start laser sweep:\n";
+              std::getline(std::cin, inputString);
+              test();
+
+            }
+		}
+
+        void test()
+        {
+            int counter = 0;
+            ros::Duration duration(1./48.);
+            std_msgs::Float64 value;
+            value.data = offset_;
+            float step = 0.02;
+            joint_pub_.publish(value);
+            while(ros::ok() && counter < 3)
+			{
+                joint_pub_.publish(value);
+                value.data += step;
+                duration.sleep();
+                if(value.data >= offset_+PI/2)
+                {
+                  step = -step;
+                  counter++;
+                }
+                if(value.data <= offset_-PI/2)
+                {
+                  step = -step;
+                  counter++;
+                }
+                if((counter == 2) && (value.data > offset_))
+                {
+                  counter++;
+                  break;
+                }
+            }
+        }
+		
+		
+		/*void controlLoop()
+		{
+			//ros::Rate loop_rate_(30);
+			//loop_rate_.reset();
+			while(ros::ok())
+			{
+
+                ROS_INFO("controlLoop...");
+				// only move the joint when a joint_state msg is received
+				if(joint_received_)
+				{
+                    ROS_INFO("joint_received: %d",state_);
+					if(state_ == 1)
+						initialize();
+					else if(state_ == 2)
+						turnLeft();
+					else if(state_ == 3)
+						turnRight();
+				}
+				joint_received_ = false;
+				
+				ros::spinOnce();
+				loop_rate_->sleep();
+				
+			}
+			ros::shutdown();
+		}
+		
+		//brief Initializes joint position to 0
+		void initialize()
+		{
+			ROS_INFO("Initializing joint");
+			
+			// if not centered
+			if(std::fabs(joint_state_.position[0]) >= uncertainty_)
+			{
+                ROS_INFO("not centered");
+                std_msgs::Float64 center_joint;
+                center_joint.data = 0.0 + offset_ + uncertainty_ + 0.76;
+				// @todo: set velocity depending the direction it has to move
+				joint_pub_.publish(center_joint);
+			}
+			// if centered
+			else
+			{
+                ROS_INFO("centered");
+				state_ = 2; // turn left
+			}
+		}
+		
+		void turnLeft()
+		{
+			ROS_INFO("Turning left");
+			// limit not reached
+			if(joint_state_.position[0] < pos_limit_)
+			{
+        std_msgs::Float64 left_joint;
+        left_joint.data = pos_limit_ + offset_ + uncertainty_;
+				joint_pub_.publish(left_joint);
+			}
+			// limit reached
+			else 
+			{
+				state_ = 3; // turn right
+			}
+		}
+		
+		void turnRight()
+		{
+//			ROS_INFO("Turning right");
+			
+			// limit not reached
+			if(joint_state_.position[0] > -pos_limit_)
+			{
+        std_msgs::Float64 right_joint;
+        right_joint.data = -pos_limit_ + offset_ - uncertainty_;
+				joint_pub_.publish(right_joint);
+			}
+			// limit reached
+			else 
+			{
+				state_ = 2; // turn right
+			}
+			
+		}*/
+		
+		void jointStateCallback(const sensor_msgs::JointState joint_state)
+		{
+			joint_received_ = true;
+
+			// copy joint state msg
+			joint_state_.position.clear();
+			joint_state_.name.clear();
+			joint_state_.name.push_back(joint_state.name[0]);
+			joint_state_.position.push_back((joint_state.position[0] - offset_));
+		}
+		
+	
+}; // end class
+
+
+int main(int argc, char** argv)
+{
+	ros::init(argc, argv, "back_and_forth_movement");
+
+    ros::Subscriber subLaserCloud = nh.subscribe<sensor_msgs::PointCloud2>    
+                                  ("/laser/scan", 2, laserCloudHandler);
+
+	BackAndForthMovement backAndForthMovement;
+		
+	return 0;
+}
+

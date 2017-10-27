@@ -1,0 +1,18 @@
+<launch>
+  <arg name="robot_name" value="$(env ROBOT_NAME)" />
+  <arg name="robot_type" value="$(env ROBOT_TYPE)" />
+  <arg name="bag" default="" />
+
+  <node name="cartographer_node" pkg="cartographer_ros"
+      type="cartographer_node" args="
+          -configuration_directory $(find amacal_mapping_evaluation)/config
+          -configuration_basename $(arg robot_type)-cartographer.lua"
+      output="screen">
+    <remap from="scan" to="$(arg robot_name)/laserscan" />
+    <remap from="imu" to="$(arg robot_name)/imu" />
+    
+    <!-- We actually get worse results with rovio, so we don't use its odometry -->
+    <!--<remap from="odom" to="$(arg robot_name)/rovio/odometry" />-->
+  </node>
+
+</launch>

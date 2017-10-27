@@ -1,0 +1,23 @@
+digraph G {
+node [shape=box];
+"la_base_link" [label="la_base_link"];
+"la_servo1" [label="la_servo1"];
+"la_servo1_roll" [label="la_servo1_roll"];
+"la_servo2" [label="la_servo2"];
+"la_servo2_pitch" [label="la_servo2_pitch"];
+"la_platform" [label="la_platform"];
+"la_laser" [label="la_laser"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"la_base_link" -> "la_base_to_servo1" [label="xyz: 0 0 0.328 \nrpy: 0 1.5708 0"]
+"la_base_to_servo1" -> "la_servo1"
+"la_servo1" -> "la_servo1_to_servo1_roll" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"la_servo1_to_servo1_roll" -> "la_servo1_roll"
+"la_servo1_roll" -> "la_servo1_roll_to_servo2" [label="xyz: -0.02 0 0.02 \nrpy: 0 -0 1.5708"]
+"la_servo1_roll_to_servo2" -> "la_servo2"
+"la_servo2" -> "la_servo2_to_la_servo2_pitch" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"la_servo2_to_la_servo2_pitch" -> "la_servo2_pitch"
+"la_servo2_pitch" -> "la_servo2_pitch_to_platform" [label="xyz: 0.03 0 0 \nrpy: 1.5708 -4.2826e-18 -1.5708"]
+"la_servo2_pitch_to_platform" -> "la_platform"
+"la_platform" -> "la_platform_to_laser" [label="xyz: 0 0 0.055 \nrpy: 0 -0 0"]
+"la_platform_to_laser" -> "la_laser"
+}

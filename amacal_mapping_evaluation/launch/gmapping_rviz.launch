@@ -1,0 +1,12 @@
+<launch>
+  <arg name="robot_name" value="$(env ROBOT_NAME)" />
+  <arg name="robot_type" value="$(env ROBOT_TYPE)" />
+  <arg name="bag" default="" />
+
+  <include file="$(find amacal_mapping_evaluation)/launch/gmapping.launch"
+           pass_all_args="true" />
+           
+  <node pkg="rviz" type="rviz" name="rviz"
+        args="-d $(find amacal_mapping_evaluation)/rviz/$(arg robot_type)-$(arg robot_name)-gmapping.rviz" />
+  
+</launch>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="back_and_forth_movement" pkg="laser_control" type="laser_control_node" output="screen">
+      <rosparam command="load" file="$(find lta_sim_create_door)/config/doors.yaml"/>
+    </node>
+</launch>

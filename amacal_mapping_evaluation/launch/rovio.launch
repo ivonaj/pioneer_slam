@@ -1,0 +1,23 @@
+<launch>
+  <arg name="robot_name" value="$(env ROBOT_NAME)" />
+  <arg name="robot_type" value="$(env ROBOT_TYPE)" />
+  <arg name="use_sim_time" default="true" />
+  <arg name="enable_scene" default="false" />
+  <arg name="bag" default="" />
+
+  <param name="use_sim_time" value="$(arg use_sim_time)" />
+  <group ns="$(arg robot_name)">
+    <node pkg="rovio" name="rovio" type="rovio_node">
+      <param name="filter_config" value="$(find amacal_mapping_evaluation)/config/$(arg robot_type)_rovio.info" />
+      <param name="camera0_config" value="$(find amacal_mapping_evaluation)/config/rovio_cam0.yaml" />
+      <param name="world_frame" value="$(arg robot_name)/odom" />
+      <param name="camera_frame" value="$(arg robot_name)/camera" />
+      <param name="imu_frame" value="$(arg robot_name)/imu" />
+      <param name="enable_scene" value="$(arg enable_scene)" />
+
+      <remap from="imu0" to="imu" />
+      <remap from="cam0/image_raw" to="camera/image_raw" />
+    </node>
+  </group>
+
+</launch>

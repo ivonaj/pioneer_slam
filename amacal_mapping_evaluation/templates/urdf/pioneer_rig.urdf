@@ -1,0 +1,62 @@
+<robot name="${ROBOT_NAME}">
+  <material name="orange">
+    <color rgba="1.0 0.5 0.2 1" />
+  </material>
+  <material name="red">
+    <color rgba="0.7 0.2 0.2 1" />
+  </material>
+  <material name="blue">
+    <color rgba="0.2 0.2 0.6 1" />
+  </material>
+
+  <link name="${ROBOT_NAME}/base_link" />
+
+  <link name="${ROBOT_NAME}/imu">
+    <visual>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <box size="0.06 0.04 0.02" />
+      </geometry>
+      <material name="orange" />
+    </visual>
+  </link>
+
+  <link name="${ROBOT_NAME}/laser">
+    <visual>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.05" radius="0.03" />
+      </geometry>
+      <material name="red" />
+    </visual>
+  </link>
+
+  <link name="${ROBOT_NAME}/camera">
+    <visual>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.05" radius="0.03" />
+      </geometry>
+      <material name="blue" />
+    </visual>
+  </link>
+
+  <joint name="${ROBOT_NAME}/camera_joint" type="fixed">
+    <parent link="${ROBOT_NAME}/imu" />
+    <child link="${ROBOT_NAME}/camera" />
+    <origin xyz="-0.015 -0.199 0.385" rpy="-1.57860819895167 -0.031700713426914905 3.0086742358006657" />
+  </joint>
+
+  <joint name="${ROBOT_NAME}/base_link_joint" type="fixed">
+    <parent link="${ROBOT_NAME}/imu" />
+    <child link="${ROBOT_NAME}/base_link" />
+    <origin xyz="0.00438929 0.0397584 -0.19" rpy="0 0 -1.68075" />
+  </joint>
+
+  <joint name="${ROBOT_NAME}/laser_joint" type="fixed">
+    <parent link="${ROBOT_NAME}/base_link" />
+    <child link="${ROBOT_NAME}/laser" />
+    <origin xyz="0.14 0 0.3" rpy="0 0 0"/>
+  </joint>
+
+</robot>

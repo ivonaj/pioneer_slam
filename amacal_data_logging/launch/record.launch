@@ -1,0 +1,26 @@
+<launch>
+  <arg name="robot_name" default="$(env ROBOT_NAME)" />
+  <arg name="path" default="$(env HOME)/bags"/>
+  <arg name="prefix" default="amacal"/>
+  
+  <node pkg="rosbag"
+        type="record"
+        name="bag_record"
+        args="-o $(arg path)/$(arg prefix)
+              --split
+              --duration=1800 
+              $(arg robot_name)/camera/image_raw
+              $(arg robot_name)/camera/camera_info
+              $(arg robot_name)/camera/timestamp_synchronizer/debug_info
+              $(arg robot_name)/imu
+              $(arg robot_name)/mag
+              $(arg robot_name)/imu/timestamp_synchronizer/debug_info
+              $(arg robot_name)/scan
+              $(arg robot_name)/sicks300/timestamp_synchronizer/debug_info
+              $(arg robot_name)/navtimestamp
+              $(arg robot_name)/pose
+              tf
+	      vrpn_client_node/$(arg robot_name)/pose"
+        output="screen" />
+
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+  <arg name="robot_name" value="$(env ROBOT_NAME)" />
+  <arg name="robot_type" value="$(env ROBOT_TYPE)" />
+
+  <param name="robot_description" textfile="$(find amacal_mapping_evaluation)/urdf/$(arg robot_name)-$(arg robot_type).urdf" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+</launch>

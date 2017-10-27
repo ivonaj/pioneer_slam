@@ -1,0 +1,15 @@
+<launch>
+  <arg name="robot_name" default="$(env ROBOT_NAME)" />
+  <arg name="bag" default="" />
+
+  <node name="gmapping" pkg="gmapping" type="slam_gmapping">
+      <param name="base_frame" value="$(arg robot_name)/base_link" />
+      <param name="odom_frame" value="$(arg robot_name)/odom" />
+
+      <remap from="scan" to="$(arg robot_name)/laserscan" />
+  </node>
+
+  <include file="$(find amacal_mapping_evaluation)/launch/rovio.launch"
+           pass_all_args="true" />
+
+</launch>

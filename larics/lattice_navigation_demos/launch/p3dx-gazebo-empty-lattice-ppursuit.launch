@@ -1,0 +1,21 @@
+<launch>
+  <arg name="name" default="pioneer"/>
+  
+  <!-- Launch the robot in the simulated environment -->
+  <include file="$(find lattice_navigation_demos)/launch/p3dx-gazebo-empty.launch">
+    <arg name="name" value="$(arg name)"/>
+  </include>
+
+  <!-- Get fake localization data as a transform -->
+  <node pkg="fake_localization" type="fake_localization" name="fakeloc">
+    <param name="odom_frame_id" value="$(arg name)/odom"/>
+    <param name="global_frame_id" value="$(arg name)/map"/>
+    <param name="base_frame_id" value="$(arg name)/base_link"/>
+  </node>
+
+
+  <!-- rviz for visualization -->
+  <node pkg="rviz" type="rviz" name="rviz"
+        args="-d $(find lattice_navigation_demos)/rviz/pioneer-control.rviz"/>
+  
+</launch>

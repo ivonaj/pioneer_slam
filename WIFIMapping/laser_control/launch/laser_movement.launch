@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="back_and_forth_movement" pkg="laser_control" type="laser_control_node" output="screen">
+    </node>
+</launch>

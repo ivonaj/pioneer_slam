@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+	<include file="$(find tedusar_laser_alignment)/launch/tedusar_laser_alignment.launch" />
+
+	<param name="robot_description" textfile="$(find tedusar_laser_alignment)/urdf/tedusar_laser_alignment.urdf" />
+
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" >
+                <param name="publish_frequency" value="20"/>
+        </node>
+
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
+        	<param name="use_gui" value="false" />
+        	<rosparam param="source_list">[la_joint_state]</rosparam>
+        </node>
+
+</launch>
+

@@ -1,0 +1,11 @@
+<launch>
+  <arg name="robot_name" default="$(env ROBOT_NAME)" />
+
+  <group ns="$(arg robot_name)">
+    <!-- Launch the IMU driver. -->
+    <node pkg="lpms_imu" name="imu" type="lpms_imu_node">
+      <param name="frame_id" value="$(arg robot_name)/imu" />	
+    </node>
+  </group>
+
+</launch>

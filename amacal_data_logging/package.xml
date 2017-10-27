@@ -1,0 +1,22 @@
+<package>
+  <name>amacal_data_logging</name>
+  <version>1.0.0</version>
+  <description>
+    This package provides configuration and launch files for recording
+    camera, IMU and laser data.
+  </description>
+  <maintainer email="juraj.orsulic@fer.hr">Juraj Oršulić</maintainer>
+  <author>Juraj Oršulić</author>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend></build_depend>
+
+  <run_depend>timesync</run_depend>
+  <run_depend>sicks300</run_depend>
+  <run_depend>smartek_camera</run_depend>
+  <run_depend>lpms_imu</run_depend>
+</package>
+
+

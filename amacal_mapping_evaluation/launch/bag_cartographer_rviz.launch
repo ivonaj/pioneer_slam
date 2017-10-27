@@ -1,0 +1,11 @@
+<launch>
+  <arg name="robot_name" value="$(env ROBOT_NAME)" />
+  <arg name="robot_type" value="$(env ROBOT_TYPE)" />
+
+  <include file="$(find amacal_mapping_evaluation)/launch/cartographer_rviz.launch"
+           pass_all_args="true" />
+  
+  <include file="$(find amacal_mapping_evaluation)/launch/play_bag.launch"
+           pass_all_args="true" />  
+  
+</launch>

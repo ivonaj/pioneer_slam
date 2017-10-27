@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- Load joint movement configurations from YAML file to parameter server -->
+  <!--<rosparam command="load" file="$(find gazebo_joint_control)/config/joint_control.yaml" />-->
+
+  <!-- load the node -->
+  <node pkg="gazebo_joint_control" type="gazebo_joint_control_node" name="gazebo_joint_control_node" output="screen" />
+
+</launch>

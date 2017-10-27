@@ -1,0 +1,26 @@
+la_roll_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: la_roll_joint
+    joint_speed: 2.0
+    motor:
+        id: 11
+        init: 512
+        min: 0
+        max: 1023
+
+la_pitch_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: la_pitch_joint
+    joint_speed: 2.0
+    motor:
+        id: 12
+        init: 512
+        min: 0
+        max: 1023
+

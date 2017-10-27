@@ -1,0 +1,10 @@
+<launch>
+  <arg name="robot_name" default="$(env ROBOT_NAME)" />
+  <arg name="bag" default="" />
+
+  <include file="$(find amacal_mapping_evaluation)/launch/cartographer.launch"
+           pass_all_args="true" />
+  <node pkg="rviz" type="rviz" name="rviz"
+        args="-d $(find amacal_mapping_evaluation)/rviz/$(arg robot_type)-$(arg robot_name)-cartographer_demo.rviz" />
+  
+</launch>

@@ -1,0 +1,14 @@
+<launch>
+  <arg name="robot_name" default="" />
+  <arg name="robot_type" default="" />
+  <arg name="bag" />
+  <arg name="rate" default="1" />
+
+  <arg name="fullpath" value="$(eval eval('_' + '_import_' + '_(\'os\').path.abspath(arg(\'bag\'))') )" />
+  <param name="use_sim_time" value="true" />
+  <node pkg="rosbag"
+        type="play"
+        name="bag"
+        args="-r $(arg rate) --clock '$(arg fullpath)'"
+        output="screen" />
+</launch>

@@ -1,0 +1,13 @@
+<launch>
+  <arg name="robot_name" value="$(env ROBOT_NAME)" />
+  <arg name="robot_type" value="$(env ROBOT_TYPE)" />
+  <arg name="bag" default="" />
+
+  <node name="gmapping" pkg="gmapping" type="slam_gmapping">
+    <param name="base_frame" value="$(arg robot_name)/base_link" />
+    <param name="odom_frame" value="$(arg robot_name)/odom" />
+
+    <remap from="scan" to="$(arg robot_name)/scan" />
+  </node>
+
+</launch>

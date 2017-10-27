@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="la_dynamixel_manager" pkg="dynamixel_controllers" type="controller_manager.py" required="true" output="log">
+        <rosparam>
+            namespace: dxl_manager
+            serial_ports:
+                la_roll_pitch_port:
+                    port_name: "/dev/ttyUSB0"
+                    baud_rate: 57600
+                    min_motor_id: 11
+                    max_motor_id: 12
+                    update_rate: 20
+        </rosparam>
+    </node>
+
+    <!-- Load controller configuration to parameter server -->
+    <rosparam file="$(find tedusar_laser_alignment)/config/dynamixel_laser_alignment_controler.yaml" command="load"/>
+
+    <!-- start specified joint controllers -->
+    <node name="la_dynamixel_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+          args="--manager=dxl_manager
+                --port=la_roll_pitch_port
+                --type=simple
+                la_roll_controller
+                la_pitch_controller"
+          output="screen">
+    </node>
+
+    <node name="tedusar_laser_alignment_node" pkg="tedusar_laser_alignment" type="tedusar_laser_alignment_node">
+        <remap from="servo_roll_state" to="/la_roll_controller/state"/>
+        <remap from="servo_pitch_state" to="/la_pitch_controller/state"/>
+
+        <param name="roll_joint_name" value="la_roll_joint" />
+        <param name="pitch_joint_name" value="la_pitch_joint" />
+        <param name="frequency" value="20.0" />
+    </node>
+
+    <!-- Init position of laser alignment -->
+    <node pkg="rostopic" type="rostopic" name="la_tilt_pub" args= "pub -1 /la_roll_controller/command std_msgs/Float64 -- 0.0" >
+    </node>
+
+    <node pkg="rostopic" type="rostopic" name="la_pan_pub" args= "pub -1 /la_pitch_controller/command std_msgs/Float64 -- 0.0" >
+    </node>
+
+    <!-- Laser Scanner Sensor -->
+    <node pkg="hokuyo_node" type="hokuyo_node" name="hokuyo_node" respawn="true" output="screen">
+        <param name="use_rep_117" value="true" />
+        <param name="calibrate_time" value="true" />
+        <param name="port" value="/dev/ttyACM0" />
+        <param name="cluster" value="1" />
+        <param name="skip" value="1" />
+        <param name="frame_id" value="/la_laser" />
+        <param name="intensity" value="false" />
+        <param name="min_ang" value="-2.2689" />
+        <param name="max_ang" value="2.2689" />
+    </node>
+
+    <!-- IMU Sensor -->
+    <node pkg="xsens_driver" type="mtnode.py" name="xsens_driver" respawn="true" output="screen" >
+	<remap from="/imu/data" to="/imu_data" />
+	<param name="frame_id" value="/imu" />
+	<param name="device" value="/dev/imu" />
+    </node>
+
+</launch>

@@ -1,0 +1,29 @@
+<launch>
+  <arg name="robot_name" default="$(env ROBOT_NAME)"/>
+  <arg name="laser_ip" default="$(env LASER_IP)"/>
+
+  <group ns="$(arg robot_name)">
+  <node name="sicknav350" pkg="sicktoolbox_wrapper" type="sicknav350" output="screen">
+    <rosparam subst_value="True">
+      ipaddress: $(arg laser_ip) <!--Sick sensor ip address -->
+      port: 2111
+      mode: 4 <!--Operating Mode: 0=powerdown, 1=standby, 2=mapping, 3-=ladnmark, 4=navigation -->
+      perform_mapping: false <!-- Perform mapping before going into mode -->
+      wait_command: 1
+      mask_command: 2 <!--Mask: Landmarkmode 0=reflectors, 1=reflectors+scan; Nav mode 0=pose+reflectors, 1=pose+scan, 2=pose+reflectors+scan -->
+      frame_id: "map"
+      sick_frame_id: "$(arg robot_name)/laser"
+      scan_rate: 8
+      reflector_frame_id: "nav350"
+      reflector_child_frame_id: "reflector"
+      inverted: false
+      resolution: 0.25
+      start_angle: 0.0
+      stop_angle: 360.0
+      publish_odom: false
+    </rosparam>
+    <remap from="/tf" to="laser_mapping_useless_tf" />
+  </node>
+  </group>
+
+</launch>
