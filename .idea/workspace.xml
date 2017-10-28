@@ -10,6 +10,939 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fad565c-13a8-4b53-a487-18bde56bac6c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/.idea/src.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/CATKIN_IGNORE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/explore_3d_pkg/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/explore_3d_pkg/config/laser_filter.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/explore_3d_pkg/launch/hokuyo_filter.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/explore_3d_pkg/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_joint_control/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_joint_control/config/joint_control.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_joint_control/launch/gazebo_joint_control.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_joint_control/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_joint_control/src/gazebo_joint_control_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/ContactState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/ContactsState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/LinkState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/LinkStates.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/ModelState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/ModelStates.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/ODEJointProperties.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/ODEPhysics.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/msg/WorldState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/ApplyBodyWrench.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/ApplyJointEffort.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/BodyRequest.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/DeleteModel.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/GetJointProperties.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/GetLinkProperties.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/GetLinkState.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/GetModelProperties.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/GetModelState.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/GetPhysicsProperties.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/GetWorldProperties.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/JointRequest.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/SetJointProperties.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/SetJointTrajectory.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/SetLinkProperties.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/SetLinkState.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/SetModelConfiguration.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/SetModelState.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/SetPhysicsProperties.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_msgs/srv/SpawnModel.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/Media/models/chair/doc.kml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/Media/models/chair/images/texture0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/Media/models/chair/images/texture1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/Media/models/chair/models/Chair.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/Media/models/chair/models/Chair.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/Media/models/chair/textures.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/cfg/CameraSynchronizer.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/cfg/GazeboRosCamera.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/cfg/GazeboRosOpenniKinect.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/cfg/Hokuyo.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/MultiCameraPlugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/PubQueue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_block_laser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_bumper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_camera.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_camera_utils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_depth_camera.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_diff_drive.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_elevator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_f3d.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_force.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ft_sensor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_gpu_laser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_hand_of_god.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_harness.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_imu.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_pose_trajectory.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_state_publisher.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_trajectory.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_laser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_multicamera.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_openni_kinect.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_p3d.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_planar_move.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_projector.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_prosilica.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_range.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_skid_steer_drive.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_template.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_tricycle_drive.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_utils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_video.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/vision_reconfigure.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/scripts/gazebo_model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/scripts/set_pose.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/scripts/set_wrench.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/scripts/test_range.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/MultiCameraPlugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/camera_synchronizer.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_plugins/gazebo_plugins_interface.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_block_laser.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_bumper.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera_utils.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_depth_camera.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_diff_drive.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_elevator.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_f3d.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_force.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_ft_sensor.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_gpu_laser.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_hand_of_god.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_harness.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_imu.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_joint_pose_trajectory.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_joint_state_publisher.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_joint_trajectory.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_laser.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_multicamera.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_openni_kinect.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_p3d.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_planar_move.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_projector.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_prosilica.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_range.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_skid_steer_drive.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_template.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_tricycle_drive.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_utils.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_video.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/hokuyo_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/src/vision_reconfigure.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/gazebo_ros_bumper.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/bumper_test/test_bumper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/config/example_models.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/launch/multi_robot_scenario.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/launch/pioneer3dx.gazebo.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/launch/pioneer3dx.rviz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/launch/pioneer3dx.urdf.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/laser/hokuyo.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/Coordinates" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/back_rim.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/back_sonar.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/center_hubcap.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/center_wheel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/chassis.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/front_rim.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/front_sonar.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/left_hubcap.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/left_wheel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/right_hubcap.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/right_wheel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/swivel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/top.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/camera/camera.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/laser/hokuyo.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/laser/hokuyo_gpu.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/materials.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/battery_block.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/inertia_tensors.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_body.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_chassis.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_plugins.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_sonar.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_swivel.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_wheel.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_3_double_pendulums.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_3_single_pendulums.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_double_pendulum.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_link_pose.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/test_single_pendulum.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/worlds/3_double_pendulums.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/worlds/3_single_pendulums.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/worlds/double_pendulum.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/p3d_test/worlds/single_pendulum.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/pub_joint_trajectory_test.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/range/range_plugin.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/set_model_state_test/set_model_state_test.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/set_model_state_test/set_model_state_test.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/set_model_state_test/set_model_state_test_p2dx.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/spawn_test/parameter_server_test.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/spawn_test/spawn_robots.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/bumper_test.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/elevator.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/gazebo_ros_block_laser.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/gazebo_ros_camera.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/gazebo_ros_depth_camera.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/gazebo_ros_gpu_laser.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/gazebo_ros_laser.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/gazebo_ros_range.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/gazebo_ros_trimesh_collision.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/test_worlds/test_lasers.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/launch/.directory" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/launch/tricycle.gazebo.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/launch/tricycle.rviz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/launch/tricycle.urdf.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/launch/tricycle_drive_scenario.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/launch/tricycle_rviz.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/.directory" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/materials.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/tricycle/inertia_tensors.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/tricycle/tricycle.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/tricycle/tricycle_body.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/tricycle/tricycle_chassis.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/tricycle/tricycle_plugins.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/tricycle/wheel.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test/tricycle_drive/xacro/tricycle/wheel_actuated.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/CMakeLists_tests_pkg.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/contact_tolerance/contact_tolerance.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/contact_tolerance/contact_tolerance.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/large_models/large_model.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/large_models/large_model.urdf.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/large_models/large_models.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/large_models/smaller_large_model.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/large_models/smaller_large_model.urdf.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/lcp_tests/balance.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/lcp_tests/balance.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/lcp_tests/stack.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/lcp_tests/stack.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/lcp_tests/stacks.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/lcp_tests/stacks.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/meshes/cube.wings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/meshes/cube_20k.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/meshes/cube_30k.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/spawn_model/check_model.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/spawn_model/spawn_box.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/spawn_model/spawn_box.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/spawn_model/spawn_box_file.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/spawn_model/spawn_box_param.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/trimesh_tests/test_trimesh.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/urdf/box.urdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/urdf/cube.urdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_plugins/test2/worlds/empty.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/cfg/Physics.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_ros_api_plugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/elevator_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/empty_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/mud_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/range_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/rubble_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/shapes_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/willowgarage_wireless_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/willowgarage_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/launch/wireless_sensors.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/scripts/debug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/scripts/gazebo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/scripts/gdbrun" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/scripts/gzclient" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/scripts/gzserver" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/scripts/perf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/scripts/spawn_model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros/gazebo_interface.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_api_plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_paths_plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/default_robot_hw_sim.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/gazebo_ros_control_plugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/include/gazebo_ros_control/robot_hw_sim.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/robot_hw_sim_plugins.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/src/default_robot_hw_sim.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_control/src/gazebo_ros_control_plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/documentation/gazebo_ros_api.odg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/documentation/gazebo_ros_api.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/documentation/gazebo_ros_api.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/documentation/gazebo_ros_transmission.odg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/documentation/gazebo_ros_transmission.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/documentation/gazebo_ros_transmission.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/gazebo_ros_pkgs/gazebo_ros_pkgs/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/cfg/GNSS.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/cfg/SensorModel.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/diffdrive_plugin_6w.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/diffdrive_plugin_multi_wheel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_create.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_force_based_move.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_gps.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_imu.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_magnetic.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_sonar.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_velodyne.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/gazebo_ros_wireless_receiver.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/reset_plugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/sensor_model.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/servo_plugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/update_timer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/diffdrive_plugin_6w.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/diffdrive_plugin_multi_wheel.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_create.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_force_based_move.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_gps.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_imu.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_magnetic.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_sonar.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_velodyne.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/gazebo_ros_wireless_receiver.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/reset_plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/src/servo_plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_plugins/srv/SetBias.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_thermal_camera/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_thermal_camera/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_thermal_camera/cfg/GazeboRosThermalCamera.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_thermal_camera/include/hector_gazebo_thermal_camera/gazebo_ros_thermal_camera.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_thermal_camera/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_thermal_camera/src/gazebo_ros_thermal_camera.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_thermal_camera/src/gazebo_ros_thermal_camera_plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_thermal_camera/src/gazebo_ros_thermal_depth_camera_plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/materials/scripts/hector_materials.material" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/120m_landscape_smooth_tri.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/120m_landscape_smooth_tri.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/120m_landscape_smooth_tri.jpg_bk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/drc_qual4_block.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2012_20m.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_inner_block.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_inner_block.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_inner_block_with_stations.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_ring.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_ring.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_1.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_2.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_3.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_4.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_5.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_6.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_7.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_8.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_target_station_complete_9.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_day_2014_with_stations.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_1.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_2.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_3.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_4.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_5.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_6.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_7.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_8.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_9.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_robot_panel_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/sick_target.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/Media/models/small_indoor_scenario.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/drc_final_qual_4_step_block.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/football_field.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/gas_station.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/grass.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/house2d_1.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/house2d_2.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/plane.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/plane2.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/plane_with_white_line.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/plane_with_white_line2.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/rolling_landscape_120m.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/sick_robot_day_2012_20m.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/sick_robot_day_2014.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/small_football_field.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/small_indoor_scenario.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/start.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/willow_garage.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/launch/wireless_router.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/maps/small_indoor_scenario_edited_map_hector_mapping.pgm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/maps/small_indoor_scenario_edited_map_hector_mapping.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/drc_final_qual_4_step_block.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/football_field.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/gas_station.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/grass.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/house2d_1.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/house2d_2.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/plane.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/plane2.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/plane_with_white_line.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/plane_with_white_line2.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/rolling_landscape_120m.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/sick_robot_day_2012_20m.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/sick_robot_day_2014.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/small_football_field.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/small_indoor_scenario.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/willow_garage.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_gazebo_worlds/worlds/wireless_router.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_sensors_gazebo/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_sensors_gazebo/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/hector_gazebo/hector_sensors_gazebo/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/laser_control/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/laser_control/config/laser_control.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/laser_control/launch/laser_control.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/laser_control/launch/laser_movement.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/laser_control/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/laser_control/src/back_and_forth_movement.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/elevator_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/empty_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/mud_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/annotated.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/bc_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/bdwn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classKineCalc-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classKineCalc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classP2OSNode-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classP2OSNode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classP2OSPacket-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classP2OSPacket.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classP2OSPtz-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classP2OSPtz.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classSIP-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classSIP.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classcircbuf-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classcircbuf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/closed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_000001_000002.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_6729f2465a455b5914d0b2d2cb54d37e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_6729f2465a455b5914d0b2d2cb54d37e_dep.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_6729f2465a455b5914d0b2d2cb54d37e_dep.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_6729f2465a455b5914d0b2d2cb54d37e_dep.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_81aa4d5c70dd79465178a51c7415355e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_81aa4d5c70dd79465178a51c7415355e_dep.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_81aa4d5c70dd79465178a51c7415355e_dep.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_81aa4d5c70dd79465178a51c7415355e_dep.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_c3fff03ad2708655b8a204d130fbe51b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_c3fff03ad2708655b8a204d130fbe51b_dep.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_c3fff03ad2708655b8a204d130fbe51b_dep.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_c3fff03ad2708655b8a204d130fbe51b_dep.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_d4024eda4ffc5b6ebed2a27c873406a8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_d4024eda4ffc5b6ebed2a27c873406a8_dep.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_d4024eda4ffc5b6ebed2a27c873406a8_dep.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dir_d4024eda4ffc5b6ebed2a27c873406a8_dep.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/doxygen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/doxygen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/dynsections.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/files.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2blank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2cl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2doc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2folderclosed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2folderopen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2lastnode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2mlastnode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2mnode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2mo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2node.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2ns.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2plastnode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2pnode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2splitbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/ftv2vertline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_enum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_eval.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_func.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_g.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_h.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_i.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_j.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_k.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_l.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_m.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_n.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_o.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_p.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_r.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_s.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_t.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_u.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_v.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_g.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_h.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_i.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_j.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_l.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_m.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_n.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_o.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_p.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_r.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_s.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_t.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_u.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_v.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_x.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_y.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_vars_z.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_x.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_y.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_z.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/functions_~.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/globals.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/globals_defs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/globals_enum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/globals_eval.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/globals_func.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/globals_type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/globals_vars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/graph_legend.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/graph_legend.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/graph_legend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/index-msg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8cc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8cc__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8cc__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8cc__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8cc_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8h.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8h__dep__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8h__dep__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8h__dep__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8h__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8h__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8h__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/kinecalc_8h_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/msg-styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/nav_f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/nav_g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/nav_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8cc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8cc__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8cc__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8cc__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8cc_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8h.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8h__dep__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8h__dep__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8h__dep__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8h__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8h__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8h__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os_8h_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8cpp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8cpp__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8cpp__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8cpp__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8cpp_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8h.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8h__dep__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8h__dep__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8h__dep__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8h__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8h__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8h__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2os__ptz_8h_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2osnode_8cc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2osnode_8cc__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2osnode_8cc__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2osnode_8cc__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/p2osnode_8cc_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8cc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8cc__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8cc__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8cc__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8cc_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8h.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8h__dep__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8h__dep__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8h__dep__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8h__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8h__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8h__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/packet_8h_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8cc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8cc__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8cc__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8cc__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8cc_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8h.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8h__dep__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8h__dep__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8h__dep__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8h__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8h__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8h__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/robot__params_8h_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8cc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8cc__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8cc__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8cc__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8cc_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8h.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8h__dep__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8h__dep__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8h__dep__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8h__incl.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8h__incl.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8h__incl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sip_8h_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structArmJoint-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structArmJoint.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structEndEffector-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structEndEffector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structKineVector-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structKineVector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structRobotParams__t-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structRobotParams__t.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structbumper__def__t-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structbumper__def__t.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structros__p2os__data-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structros__p2os__data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structsonar__pose__t-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/structsonar__pose__t.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sync_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/sync_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/tab_a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/tab_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/tab_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/tab_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/html/tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/p2os_driver/manifest.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_doc/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/include/p2os_driver/kinecalc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/include/p2os_driver/p2os.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/include/p2os_driver/p2os_ptz.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/include/p2os_driver/packet.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/include/p2os_driver/robot_params.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/include/p2os_driver/sip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/src/kinecalc.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/src/p2os.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/src/p2os_ptz.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/src/p2osnode.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/src/packet.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/src/robot_params.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_driver/src/sip.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/config/gmapping_demo.vcg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/config/laser_demo.vcg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/diagnostics.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/diagnostics/p2os_analyzers.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/amcl.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/base_local_planner_params.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/costmap_common_params.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/costmap_common_params_p3at.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/costmap_common_params_p3dx.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/diagnostics.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/enable_motors.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/global_costmap_params.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/gmapping.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/gmapping_tf_lrf_p2os_teleop_joy.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/hokuyo.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/local_costmap_params.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/navigation-pioneer-3at.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/navigation-pioneer-3dx.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/navigation.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/navigation_tf_lrf_p2os_teleop_joy.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/p2os_diagnostics.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/p2os_driver.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/p2os_teleop_joy.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/pioneerMasterLaunchFile.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/sicklms.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/stage-pioneer-3dx-hokuyo.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/stage-pioneer-3dx-sick.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/stage-worlds/FGH.pgm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/stage-worlds/pioneer3at-sick.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/stage-worlds/pioneer3dx-hokuyo.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/stage-worlds/pioneer3dx-sick.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/teleop_joy.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/teleop_keyboard.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/tf_base_link_to_laser.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/tf_lrf_p2os.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/launch/tf_lrf_p2os_teleop_joy.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/mainpage.dox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_launch/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/AIO.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/ArmState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/BatteryState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/DIO.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/GripState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/GripperState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/LiftState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/MotorState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/PTZState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/SonarArray.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/msg/TCMState.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_msgs/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_teleop/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_teleop/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_teleop/mainpage.dox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_teleop/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_teleop/src/p2os_teleop.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/materials.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer2dx.urdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3at.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3at_2dlaser.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3at_2dlaser_slippery.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3at_body.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3at_body_slippery.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3at_minimal.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3at_velodyne.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3at_wireless.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3dx.urdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3dx.urdf.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3dx.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3dx_body.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3dx_orig.2.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/defs/pioneer3dx_wheel.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at.gazebo.2dlaser.apollo.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at.gazebo.2dlaser.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at.gazebo.2dlaser.minimal.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at.gazebo.2dlaser.slippery.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at.gazebo.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at.gazebo.minimal.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at.gazebo.velodyne.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at.gazebo.wireless.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3at_urdf.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3dx.gazebo.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/pioneer3dx_urdf.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/upload_pioneer3at.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/upload_pioneer3at_2dlaser.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/upload_pioneer3at_2dlaser_slippery.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/upload_pioneer3at_minimal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/upload_pioneer3at_velodyne.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/upload_pioneer3at_wireless.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/launch/upload_pioneer3dx.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/body.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/caster_mount.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/caster_plate.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/chassis_top.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/pioneer3dx.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/sonars.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/tires.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/top_plate.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/original/wheels-center.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/Coordinates" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/axle.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/back_sonar.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/chassis.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/front_sonar.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/left_hubcap.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/right_hubcap.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/top.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3at_meshes/wheel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/Coordinates" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/back_rim.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/back_sonar.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/center_hubcap.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/center_wheel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/chassis.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/front_rim.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/front_sonar.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/left_hubcap.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/left_wheel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/right_hubcap.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/right_wheel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/swivel.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/p3dx_meshes/top.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/PIKACHU.mtl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/PIKACHU.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/Pikachu.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/Pikachu.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/Pikachu_B.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/Pikachu_C.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/Pikachu_E.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/Pikachu_M.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/Pikachu_PREVIEW.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/Wii - Pokmon Battle Revolution - 025 - Pikachu.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/atlas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/meshes/pikachu/pikachu.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/models/collada_urdf.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/models/pioneer3at.blend" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/models/pioneer3dx.blend" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/modify/yaml_servo/servo.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/src/publisher.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/src/publisher3at.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/p2os_urdf/src/publisher3dx.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/range_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/rubble_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/shapes_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/testworld_1.world" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/p2os/willowgarage_world.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/CHANGELOG.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/ekf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/filter_base.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/filter_common.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/filter_utilities.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/navsat_conversions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/navsat_transform.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/ros_filter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/ros_filter_types.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/ros_filter_utilities.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/include/robot_localization/ukf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/launch/ekf_template.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/launch/navsat_transform_template.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/launch/ukf_gazebo_p3at_odom_with_imu.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/launch/ukf_gazebo_p3at_odom_without_imu.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/launch/ukf_template.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/params/ekf_template.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/params/ukf (copy).launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/params/ukf_gazebo_p3at_odom_backup.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/params/ukf_template.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/ekf.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/ekf_localization_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/filter_base.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/filter_utilities.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/navsat_transform.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/navsat_transform_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/ros_filter.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/ros_filter_utilities.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/ukf.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/src/ukf_localization_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/srv/SetDatum.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/srv/SetPose.srv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/record_all_stats.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/stat_recorder.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test1.bag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test2.bag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test3.bag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ekf.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ekf.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ekf_localization_node_bag1.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ekf_localization_node_bag2.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ekf_localization_node_bag3.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ekf_localization_node_interfaces.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ekf_localization_node_interfaces.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_filter_base.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_filter_base_diagnostics_timestamps.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_filter_base_diagnostics_timestamps.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_localization_node_bag_pose_tester.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ukf.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ukf.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ukf_localization_node_bag1.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ukf_localization_node_bag2.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ukf_localization_node_bag3.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ukf_localization_node_interfaces.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/robot_localization/test/test_ukf_localization_node_interfaces.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/rqt_laser_sweep/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/rqt_laser_sweep/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/rqt_laser_sweep/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/rqt_laser_sweep/resource/MyPlugin.ui" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/rqt_laser_sweep/scripts/rqt_laser_sweep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/rqt_laser_sweep/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/rqt_laser_sweep/src/rqt_laser_sweep/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/rqt_laser_sweep/src/rqt_laser_sweep/my_module.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/config/dynamixel_laser_alignment_controler.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/include/tedusar_laser_alignment/tedusar_laser_alignment_node.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/launch/id_scan.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/launch/tedusar_laser_alignment.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/launch/tedusar_laser_alignment_urdf.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/src/tedusar_laser_alignment_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/urdf/07-jaguar.urdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/urdf/hokuyo.urdf.xacro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/urdf/laser_alignment_assembly_servo1.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/urdf/tedusar_laser_alignment.gv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/urdf/tedusar_laser_alignment.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/urdf/tedusar_laser_alignment.urdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/urdf/tedusar_laser_alignment_save.urdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tedusar_laser_alignment/urdf/tedusar_laser_alignment_without_laser.urdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tug_2d_occupancy_grid_map/CATKIN_IGNORE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tug_2d_occupancy_grid_map/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tug_2d_occupancy_grid_map/include/tug_2d_occupancy_grid_map/tug_2d_occupancy_grid_map.hpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tug_2d_occupancy_grid_map/launch/rviz.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tug_2d_occupancy_grid_map/launch/rviz.rviz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tug_2d_occupancy_grid_map/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/tug_2d_occupancy_grid_map/src/tug_2d_occupancy_grid_map.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/CATKIN_IGNORE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/msg/AccessPoint.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/msg/WifiData.msg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/src/talker.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/src/wifi_gpmap_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/src/wifi_mapping_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/src/wifi_sim_map.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/src/wifi_stumbler.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/src/wifi_stumbler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/src/wifi_stumbler_node.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WIFIMapping/wifimap/src/wifi_view_node.cpp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty.launch" afterPath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty.launch" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/lattice_navigation_demos/rviz/pioneer-control.rviz" afterPath="$PROJECT_DIR$/larics/lattice_navigation_demos/rviz/pioneer-control.rviz" />
@@ -50,7 +983,7 @@
         <entry file="file://$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty.launch">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,7 +1003,7 @@
         <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/launch/upload_pioneer3dx.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,7 +1013,7 @@
         <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx.xacro">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,7 +1033,7 @@
         <entry file="file://$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty-lattice-ppursuit.launch">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,7 +1043,7 @@
         <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx_body.xacro">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="775">
-              <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+              <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,8 +1052,8 @@
       <file leaf-file-name="pioneer3dx-lms100.xacro" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx-lms100.xacro">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="292" column="0" lean-forward="true" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+            <state relative-caret-position="609">
+              <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,7 +1063,7 @@
         <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/src/publisher.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -287,12 +1220,12 @@
       <workItem from="1509098524562" duration="4723000" />
       <workItem from="1509108059006" duration="1356000" />
       <workItem from="1509114114965" duration="3076000" />
-      <workItem from="1509192049556" duration="10996000" />
+      <workItem from="1509192049556" duration="11452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22947000" />
+    <option name="totallyTimeSpent" value="23403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -635,7 +1568,7 @@
     <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/launch/upload_pioneer3dx.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -643,7 +1576,7 @@
     <entry file="file://$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -651,7 +1584,7 @@
     <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx.xacro">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -659,7 +1592,7 @@
     <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/src/publisher.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -667,7 +1600,7 @@
     <entry file="file://$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty-lattice-ppursuit.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -675,7 +1608,7 @@
     <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx_body.xacro">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
-          <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+          <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -690,8 +1623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx-lms100.xacro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="292" column="0" lean-forward="true" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+        <state relative-caret-position="609">
+          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
           <folding />
         </state>
       </provider>
