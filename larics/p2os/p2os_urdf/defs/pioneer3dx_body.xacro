@@ -39,7 +39,7 @@
 
   <link name="top_plate">
 	<inertial>
-	  <mass value="0.01"/>	
+	  <mass value="0.01"/>
 	  <origin xyz="0 0 0"/>
 	  <inertia ixx="1" ixy="0" ixz="0"
 			   iyy="1" iyz="0"
@@ -68,7 +68,7 @@
   <!-- Swivel -->
   <link name="swivel">
 	<inertial>
-	  <mass value="0.1"/>	
+	  <mass value="0.1"/>
 	  <origin xyz="0 0 0"/>
 	  <inertia ixx="0.01" ixy="0" ixz="0"
 			   iyy="0.01" iyz="0" izz="0.01"/>
@@ -99,7 +99,7 @@
   <!-- Center Wheel + Hubcap -->
   <link name="center_hubcap">
     <inertial>
-	  <mass value="0.01"/>	
+	  <mass value="0.01"/>
 	  <origin xyz="0 0 0"/>
 	  <inertia ixx="0.012411765597" ixy="-0.000711733678" ixz="0.00050272983"
 			   iyy="0.015218160428" iyz="-0.000004273467" izz="0.011763977943"/>
@@ -130,7 +130,7 @@
 
   <link name="center_wheel">
 	<inertial>
-	  <mass value="0.1"/>	
+	  <mass value="0.1"/>
 	  <origin xyz="0 0 0"/>
 	  <inertia ixx="0.012411765597" ixy="-0.000711733678" ixz="0.00050272983"
 			   iyy="0.015218160428" iyz="-0.000004273467" izz="0.011763977943"/>
@@ -168,7 +168,7 @@
   <!-- Front + Back Sonar -->
   <link name="front_sonar">
 	<inertial>
-	  <mass value="0.0001"/>	
+	  <mass value="0.0001"/>
 	  <origin xyz="0 0 0"/>
 	  <inertia ixx="1" ixy="0" ixz="0"
 			   iyy="1" iyz="0" izz="1"/>
@@ -195,7 +195,7 @@
 
   <link name="back_sonar">
 	<inertial>
-	  <mass value="0.0001"/>	
+	  <mass value="0.0001"/>
 	  <origin xyz="0 0 0"/>
 	  <inertia ixx="1" ixy="0" ixz="0"
 			   iyy="1" iyz="0" izz="1"/>

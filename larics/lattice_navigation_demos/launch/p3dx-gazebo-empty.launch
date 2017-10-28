@@ -11,6 +11,7 @@
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="respawn_gazebo" value="true"/>
   </include>
+
   
   <!-- push robot_description to factory and spawn robot in gazebo -->
   <node name="spawn_pioneer" pkg="gazebo_ros" type="spawn_model"
