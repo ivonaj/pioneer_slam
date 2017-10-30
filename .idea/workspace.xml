@@ -10,62 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fad565c-13a8-4b53-a487-18bde56bac6c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/amacal_mapping_evaluation/CATKIN_IGNORE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/config/p3dx_base_local_planner_params.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/config/p3dx_costmap_common_params.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/config/p3dx_global_costmap_params.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/config/p3dx_local_costmap_params.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/envsetup" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/agv-control.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/amcl-navigation.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/amcl.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/aria-lms100-amcl.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/aria-lms100-teleop.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/aria-lms100.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/aria-teleop.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/aria.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/gateway_delta.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/gmapping.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/lms100.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/mocap.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/navigation.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/p2os-amcl.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/p2os-lms100-teleop-mocap.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/p2os-lms100-teleop.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/p2os-lms100.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/p2os-navigation.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/p2os-teleop.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/p2os.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/p3dx-p2os-slam.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/launch/teleop_f720.launch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/mainpage.dox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/maps/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/package.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/rviz/alpha-gmapping.rviz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/rviz/alpha.rviz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/track/foxtrot.track" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/yaml/gateway_blacklist.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p3dx_config/yaml/gateway_delta.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/ArTimeToROSTime.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/CATKIN_IGNORE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/LaserPublisher.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/LaserPublisher.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/RosAria.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/cfg/RosAria.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/libaria.rdmanifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/mainpage.dox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/msg/BumperState.msg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rosaria/package.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amacal_mapping_evaluation/config/pioneer-cartographer.lua" afterPath="$PROJECT_DIR$/amacal_mapping_evaluation/config/pioneer-cartographer.lua" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amacal_mapping_evaluation/launch/cartographer.launch" afterPath="$PROJECT_DIR$/amacal_mapping_evaluation/launch/cartographer.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amacal_mapping_evaluation/launch/internal/pioneer-cartographer.launch" afterPath="$PROJECT_DIR$/amacal_mapping_evaluation/launch/internal/pioneer-cartographer.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amacal_mapping_evaluation/parse_robot_name.sh" afterPath="$PROJECT_DIR$/amacal_mapping_evaluation/parse_robot_name.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty-lattice-ppursuit.launch" afterPath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty-lattice-ppursuit.launch" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/lattice_navigation_demos/rviz/pioneer-control.rviz" afterPath="$PROJECT_DIR$/larics/lattice_navigation_demos/rviz/pioneer-control.rviz" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -300,16 +244,15 @@
       <workItem from="1509114114965" duration="3076000" />
       <workItem from="1509192049556" duration="11452000" />
       <workItem from="1509214184157" duration="2618000" />
-      <workItem from="1509354108027" duration="6998000" />
+      <workItem from="1509354108027" duration="7448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33019000" />
+    <option name="totallyTimeSpent" value="33469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.027091634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
