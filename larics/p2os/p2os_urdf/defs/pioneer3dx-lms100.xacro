@@ -235,7 +235,7 @@
 	  <wheelDiameter>0.18</wheelDiameter>
 	  <wheelTorque>5</wheelTorque>
       <wheelAcceleration>0</wheelAcceleration>
-      <robotNamespace>pioneer</robotNamespace>
+
 	  <commandTopic>cmd_vel</commandTopic>
 	  <odometryTopic>odom</odometryTopic>
       <odometrySource>ENCODER</odometrySource><!--Other option is World-->
@@ -321,8 +321,8 @@
 				</noise>
 			</ray>
 			<plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
-				<topicName>pioneer/laser/scan</topicName>
-				<frameName>pioneer/lms100</frameName>
+				<topicName>laser/scan</topicName>
+				<frameName>lms100</frameName>
 			</plugin>
 		</sensor>
 	</gazebo>

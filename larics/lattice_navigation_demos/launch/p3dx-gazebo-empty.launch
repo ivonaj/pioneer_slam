@@ -17,4 +17,5 @@
   <node name="spawn_pioneer" pkg="gazebo_ros" type="spawn_model"
         args="-x 1.0 -y 1.0 -z 0.1 -urdf -param robot_description -model
               robot_description" respawn="false" output="screen" />
+
 </launch>
