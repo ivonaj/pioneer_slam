@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fad565c-13a8-4b53-a487-18bde56bac6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amacal_mapping_evaluation/config/pioneer-cartographer.lua" afterPath="$PROJECT_DIR$/amacal_mapping_evaluation/config/pioneer-cartographer.lua" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty-lattice-ppursuit.launch" afterPath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty-lattice-ppursuit.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty.launch" afterPath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/lattice_navigation_demos/rviz/pioneer-control.rviz" afterPath="$PROJECT_DIR$/larics/lattice_navigation_demos/rviz/pioneer-control.rviz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx-lms100.xacro" afterPath="$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx-lms100.xacro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/multi-pioneer.launch" afterPath="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/multi-pioneer.launch" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +75,8 @@
       <file leaf-file-name="multi-pioneer.launch" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/larics/lattice_navigation_demos/launch/multi-pioneer.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="3" column="66" lean-forward="false" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+            <state relative-caret-position="37">
+              <caret line="3" column="69" lean-forward="false" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -120,8 +115,8 @@
         <option value="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-multirobot.launch" />
         <option value="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/spawn_pioneer.launch" />
         <option value="$PROJECT_DIR$/larics/p2os/p2os_urdf/defs/pioneer3dx-lms100.xacro" />
-        <option value="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/multi-pioneer.launch" />
         <option value="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/p3dx-gazebo-empty-lattice-ppursuit.launch" />
+        <option value="$PROJECT_DIR$/larics/lattice_navigation_demos/launch/multi-pioneer.launch" />
       </list>
     </option>
   </component>
@@ -230,12 +225,12 @@
       <workItem from="1509354108027" duration="7448000" />
       <workItem from="1509442961902" duration="4423000" />
       <workItem from="1509460084545" duration="8768000" />
-      <workItem from="1509486471901" duration="9128000" />
+      <workItem from="1509486471901" duration="9203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55819000" />
+    <option name="totallyTimeSpent" value="55894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="308" width="1301" height="772" extended-state="6" />
@@ -616,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/larics/lattice_navigation_demos/launch/multi-pioneer.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="3" column="66" lean-forward="false" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        <state relative-caret-position="37">
+          <caret line="3" column="69" lean-forward="false" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
           <folding />
         </state>
       </provider>
