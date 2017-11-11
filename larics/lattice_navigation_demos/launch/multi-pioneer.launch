@@ -1,10 +1,10 @@
 <launch>
   <arg name="name" default="pioneer"/>
 
-  <include file="$(find p2os_urdf)/launch/upload_pioneer3dx.xml"/>git
+  <include file="$(find p2os_urdf)/launch/upload_pioneer3dx.xml"/>
 
-  <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="respawn_gazebo" value="true"/>
+  <include file="$(find gazebo_ros)/launch/willowgarage_world.launch">
+    <!--arg name="respawn_gazebo" value="true"/-->
   </include>
 
   <group ns="pioneer0">
@@ -24,7 +24,7 @@
     <include file="$(find p2os_urdf)/launch/upload_pioneer3dx.xml"/>
   <!-- push robot_description to factory and spawn robot in gazebo -->
   <node name="spawn_pioneer" pkg="gazebo_ros" type="spawn_model"
-        args="-x 2.0 -y 2.0 -z 0.1 -urdf -param robot_description -model
+        args="-x -1.0 -y 1l .0 -z 0.1 -urdf -param robot_description -model
               pioneer1" respawn="false" output="screen" />
    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
   	<param name="publish_frequency" type="double" value="30.0"/>
