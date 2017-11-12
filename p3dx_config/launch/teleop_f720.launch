@@ -9,7 +9,7 @@
   <group ns="$(arg robot_name)">
     <!-- run a joy node to get input from the joystick -->
     <node pkg="joy" type="joy_node" name="f710">
-    <param name= "dev" type="string" value="/dev/input/js1"/>
+    <param name= "dev" type="string" value="/dev/input/js2"/>
     </node>
 
     <!-- Run the teleop node to translate joy messages to twist messages -->
