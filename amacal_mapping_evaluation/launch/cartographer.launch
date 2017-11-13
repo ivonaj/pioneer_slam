@@ -1,5 +1,4 @@
 <launch>
-  <arg name="robot_name" value="$(env ROBOT_NAME)" />
   <arg name="robot_type" value="$(env ROBOT_TYPE)" />
   <arg name="use_sim_time" default="true" />
   <arg name="bag" default="" />
