@@ -212,7 +212,7 @@ define pioneer3dx pioneer_base
 window
 (
   size [ 1000.000 1000.000 ] # in pixels
-  scale 5 #37.481   # pixels per meter
+  scale 15 #37.481   # pixels per meter
   #scale 12.0402
   center [ -0.007  0.003 ]
   rotate [ 0  0 ]
@@ -225,7 +225,7 @@ window
 floorplan
 ( 
   name "FGH"
-  size [200 200 1]
+  size [54.0 58.0 0.5]
   pose [0 0 0 1.57]
   bitmap "FGH.pgm"
 )
@@ -293,10 +293,17 @@ define fancysicklaser sicklaser
 pioneer3dx
 (		  
   # can refer to the robot by this name
-  name "pioneer"
-  pose [92 46 0 0] 
+  name "pioneer0"
+  pose [10 8 0 110] 
 
   fancysicklaser(color "blue")
 )
+pioneer3dx
+(		  
+  # can refer to the robot by this name
+  name "pioneer1"
+  pose [10 6 0 -70] 
 
+  fancysicklaser(color "blue")
+)
 interval_sim 100 
