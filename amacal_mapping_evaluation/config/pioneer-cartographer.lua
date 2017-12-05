@@ -48,8 +48,8 @@ TRAJECTORY_BUILDER_2D.use_imu_data = false
 --TRAJECTORY_BUILDER_2D.rangefinder_sampling_ratio = 1./3.
 --TRAJECTORY_BUILDER_2D.scans_per_accumulation = 1.
 TRAJECTORY_BUILDER_2D.ceres_scan_matcher.occupied_space_weight = 3
-TRAJECTORY_BUILDER_2D.ceres_scan_matcher.translation_weight = 10
-TRAJECTORY_BUILDER_2D.ceres_scan_matcher.rotation_weight = 20
+TRAJECTORY_BUILDER_2D.ceres_scan_matcher.translation_weight = 20
+TRAJECTORY_BUILDER_2D.ceres_scan_matcher.rotation_weight = 10
 
 --SPARSE_POSE_GRAPH.optimization_problem.huber_scale = 1e2
 

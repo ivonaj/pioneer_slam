@@ -8,7 +8,7 @@
   
   <!-- Keyboard teleoperation -->
   <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop">
-    <remap from="cmd_vel" to="$(arg name)/cmd_vel"/>
+    <remap from="cmd_vel_orig" to="$(arg name)/cmd_vel"/>
   </node>
   
 </launch>

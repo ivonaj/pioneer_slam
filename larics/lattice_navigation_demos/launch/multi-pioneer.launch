@@ -3,8 +3,9 @@
 
   <include file="$(find p2os_urdf)/launch/upload_pioneer3dx.xml"/>
 
-  <include file="$(find gazebo_ros)/launch/willowgarage_world.launch">
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
   <!--arg name="respawn_gazebo" value="true"/-->
+ <arg name="extra_gazebo_args" value="tf:=smece"/>
   </include>
 
   <group ns="pioneer0">

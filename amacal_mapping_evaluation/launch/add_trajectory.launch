@@ -8,7 +8,9 @@
           -configuration_directory $(find amacal_mapping_evaluation)/config
           -configuration_basename $(arg robot_type)-cartographer.lua"
       output="screen">
-    <remap from="scan" to="$(arg robot_name)/laser/scan" />
+    <!--remap from="scan" to="$(arg robot_name)/laser/scan" /-->
+    <remap from="scan" to="$(arg robot_name)/base_scan" />
+
     <remap from="imu" to="$(arg robot_name)/imu" />
     <remap from="odom" to="$(arg robot_name)/odom" />
   </node>
