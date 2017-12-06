@@ -7,7 +7,7 @@
 quit_time 3600 # 1 hour of simulated time
 
 #resolution 0.02
-resolution 0.1
+resolution 0.02
 
 define floorplan model
 (
@@ -236,7 +236,7 @@ define sicklaser ranger
   # laser-specific properties
   # factory settings for LMS200 
   sensor(
-    range [ 0.0 6.0 ]
+    range [ 0.0 30.0 ]
     fov 250.0
     samples 361
   )
@@ -307,6 +307,6 @@ pioneer3dx
 
   fancysicklaser(color "blue")
 )
-interval_sim 100 
+interval_sim 50
 
 
