@@ -37,14 +37,15 @@ define pioneer_base position
   #blob_return 1                 # Seen by blobfinders  
   #fiducial_return 1             # Seen as "1" fiducial finders
 
-  origin [-0.04465 0.0 0.0 0]
+  origin [-0.045 0.000 0.000 0.000]
   #localization "gps"            
   #localization_origin [0 0 0 0]   # Start odometry at (0, 0, 0).
 
   # alternative odometric localization with simple error model
   # localization "odom"             # Change to "gps" to have impossibly perfect, global odometry
   #  odom_error [ 0.05 0.05 0.1 ]     # Odometry error or slip in X, Y and Theta
-                                    # (Uniform random distribution)   
+                                    # (Uniform random distribution)
+  odom_error [0 0 0 0 ]
 )
 
 #define p3dx_sonar ranger
@@ -204,7 +205,7 @@ define pioneer3dx pioneer_base
   # Estimated mass in KG
   mass 23.0 
 
-  size [0.511 0.4 0.22]
+  size [0.511 0.400 0.220]
 
   #p3dx_sonar( pose [ 0 0 -0.03 0 ] ) 
 )
@@ -212,11 +213,11 @@ define pioneer3dx pioneer_base
 # configure the GUI window
 window
 (
-  size [ 1000.000 1000.000 ] # in pixels
-  scale 15 #37.481   # pixels per meter
+  size [ 1000 716 ] # in pixels
+  scale 8.467 #37.481   # pixels per meter
   #scale 12.0402
-  center [ -0.007  0.003 ]
-  rotate [ 0  0 ]
+  center [ 16.964  -2.500 ]
+  rotate [ 55.000  -65.000 ]
   			
   show_data 1              # 1=on 0=off
   show_occupancy 0
@@ -226,9 +227,9 @@ window
 floorplan
 ( 
   name "FGH"
-  size [54.0 58.0 0.5]
-  pose [0 0 0 1.57]
-  bitmap "FGH.pgm"
+  size [140.800 71.400 0.500]
+  pose [0.000 0.000 0.000 1.570]
+  bitmap "fer.pgm"
 )
 
 define sicklaser ranger
@@ -237,15 +238,16 @@ define sicklaser ranger
   # factory settings for LMS200 
   sensor(
     range [ 0.0 30.0 ]
-    fov 250.0
-    samples 361
+    fov 270.0
+    samples 540
   )
 
   #samples 90 # still useful but much faster to compute
 
   # generic model properties
   color "blue"
-  size [ 0.156 0.155 0.19 ] # dimensions from LMS200 data sheet 
+  size [ 0.156 0.155 0.190 ] # dimensions from LMS200 data sheet
+   watts 17.5
 )
 
 # extends sicklaser to add nice-looking but relatively expensive geometry
@@ -295,7 +297,7 @@ pioneer3dx
 (		  
   # can refer to the robot by this name
   name "pioneer0"
-  pose [10 8 0 110] 
+  pose [-28.028 -9.364 0.000 -140.506]
 
   fancysicklaser(color "blue")
 )
@@ -303,10 +305,10 @@ pioneer3dx
 (		  
   # can refer to the robot by this name
   name "pioneer1"
-  pose [10 6 0 110]
+  pose [-25.000 -11.000 0.000 110.000]
 
   fancysicklaser(color "blue")
 )
-interval_sim 50
+interval_sim 20
 
 

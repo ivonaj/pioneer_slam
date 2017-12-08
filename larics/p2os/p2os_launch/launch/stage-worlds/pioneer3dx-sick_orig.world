@@ -236,7 +236,7 @@ define sicklaser ranger
   # factory settings for LMS200 
   sensor(
     range [ 0.0 8.0 ]
-    fov 180.0
+    fov 250.0
     samples 361
   )
 
