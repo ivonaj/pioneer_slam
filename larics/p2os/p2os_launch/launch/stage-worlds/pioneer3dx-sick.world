@@ -229,7 +229,7 @@ floorplan
   name "FGH"
   size [140.800 71.400 0.500]
   pose [0.000 0.000 0.000 1.570]
-  bitmap "fer.pgm"
+  bitmap "FGH.pgm"
 )
 
 define sicklaser ranger

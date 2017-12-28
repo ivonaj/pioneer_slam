@@ -3,7 +3,7 @@
   <arg name="bag" default="" />
 
   <node name="cartographer_node" pkg="cartographer_ros"
-      type="cartographer_node" args="-start_trajectory_with_default_topics=false
+      type="cartographer_node" args="-start_trajectory_with_default_topics=false -map_filename=/home/ivona/.ros/map1.pbstream
           -configuration_directory $(find amacal_mapping_evaluation)/config
           -configuration_basename $(arg robot_type)-cartographer.lua"
       output="screen">
