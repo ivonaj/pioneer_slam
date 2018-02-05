@@ -1,0 +1,16 @@
+<launch>
+
+  <arg name="robot_type" value="$(env ROBOT_TYPE)" />
+  <arg name="use_sim_time" default="true" />
+  <arg name="bag" default="" />
+  <arg name="map_file" default="$(find p3dx_config)/maps/map1.yaml"/>
+ <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)">
+            <param name="frame_id" value="/map"/>
+ </node>
+
+  <param name="use_sim_time" value="$(arg use_sim_time)" />
+  <include file="$(find amacal_mapping_evaluation)/launch/internal/$(arg robot_type)-cartographer-localization.launch" />
+
+  <!--include file="$(find amacal_mapping_evaluation)/launch/robot_state_publisher.launch" /-->
+
+</launch>
