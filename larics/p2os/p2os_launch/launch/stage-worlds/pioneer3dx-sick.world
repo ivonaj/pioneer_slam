@@ -226,9 +226,9 @@ window
 floorplan
 ( 
   name "FGH"
-  size [54.0 58.0 0.5]
+  size [140.8 71.4 0.5]
   pose [0 0 0 1.57]
-  bitmap "FGH.pgm"
+  bitmap "b-zgrada.pgm"
 )
 
 define sicklaser ranger
@@ -295,7 +295,7 @@ pioneer3dx
 (		  
   # can refer to the robot by this name
   name "pioneer0"
-  pose [10 8 0 110] 
+  pose [8 20 0 110] 
 
   fancysicklaser(color "blue")
 )
@@ -303,7 +303,7 @@ pioneer3dx
 (		  
   # can refer to the robot by this name
   name "pioneer1"
-  pose [10 6 0 110]
+  pose [8 18 0 110]
 
   fancysicklaser(color "blue")
 )
