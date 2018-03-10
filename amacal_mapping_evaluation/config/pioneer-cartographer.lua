@@ -26,6 +26,7 @@ options = {
   provide_odom_frame = false,
   use_odometry = true,
   use_nav_sat=false,
+  publish_frame_projected_to_2d = false,
   num_laser_scans = 1,
   num_multi_echo_laser_scans = 0,
   num_subdivisions_per_laser_scan = 1,
@@ -42,7 +43,7 @@ options = {
 
 MAP_BUILDER.use_trajectory_builder_2d = true
 
-TRAJECTORY_BUILDER_2D.max_range = 29.9
+TRAJECTORY_BUILDER_2D.max_range = 19.0
 TRAJECTORY_BUILDER_2D.min_range = 0.1
 TRAJECTORY_BUILDER_2D.use_online_correlative_scan_matching = true
 TRAJECTORY_BUILDER_2D.use_imu_data = false

@@ -37,7 +37,7 @@ define pioneer_base position
   #blob_return 1                 # Seen by blobfinders  
   #fiducial_return 1             # Seen as "1" fiducial finders
 
-  origin [-0.04465 0.0 0.0 0]
+  origin [-0.045 0.000 0.000 0.000]
   #localization "gps"            
   #localization_origin [0 0 0 0]   # Start odometry at (0, 0, 0).
 
@@ -204,7 +204,7 @@ define pioneer3dx pioneer_base
   # Estimated mass in KG
   mass 23.0 
 
-  size [0.511 0.4 0.22]
+  size [0.511 0.400 0.220]
 
   #p3dx_sonar( pose [ 0 0 -0.03 0 ] ) 
 )
@@ -212,11 +212,11 @@ define pioneer3dx pioneer_base
 # configure the GUI window
 window
 (
-  size [ 1000.000 1000.000 ] # in pixels
-  scale 15 #37.481   # pixels per meter
+  size [ 1000 716 ] # in pixels
+  scale 10.244 #37.481   # pixels per meter
   #scale 12.0402
-  center [ -0.007  0.003 ]
-  rotate [ 0  0 ]
+  center [ -19.925  3.289 ]
+  rotate [ 0.000  31.000 ]
   			
   show_data 1              # 1=on 0=off
   show_occupancy 0
@@ -226,8 +226,8 @@ window
 floorplan
 ( 
   name "FGH"
-  size [140.8 71.4 0.5]
-  pose [0 0 0 1.57]
+  size [140.800 71.400 0.500]
+  pose [0.000 0.000 0.000 1.570]
   bitmap "b-zgrada.pgm"
 )
 
@@ -236,7 +236,7 @@ define sicklaser ranger
   # laser-specific properties
   # factory settings for LMS200 
   sensor(
-    range [ 0.0 30.0 ]
+    range [ 0.0 20.0 ]
     fov 250.0
     samples 361
   )
@@ -245,7 +245,7 @@ define sicklaser ranger
 
   # generic model properties
   color "blue"
-  size [ 0.156 0.155 0.19 ] # dimensions from LMS200 data sheet 
+  size [ 0.156 0.155 0.190 ] # dimensions from LMS200 data sheet 
 )
 
 # extends sicklaser to add nice-looking but relatively expensive geometry
@@ -295,7 +295,7 @@ pioneer3dx
 (		  
   # can refer to the robot by this name
   name "pioneer0"
-  pose [8 20 0 110] 
+  pose [4.255 20.235 0.000 -178.392] 
 
   fancysicklaser(color "blue")
 )
@@ -303,7 +303,7 @@ pioneer3dx
 (		  
   # can refer to the robot by this name
   name "pioneer1"
-  pose [8 18 0 110]
+  pose [-42.277 -2.267 0.000 110.000]
 
   fancysicklaser(color "blue")
 )
